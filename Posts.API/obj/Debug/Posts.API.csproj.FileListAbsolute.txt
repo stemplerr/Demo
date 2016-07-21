@@ -1,0 +1,7 @@
+C:\Users\Rochel Faiga\Documents\Visual Studio 2013\Projects\Demo 7-20\Posts.API\bin\Debug\Posts.API.dll
+C:\Users\Rochel Faiga\Documents\Visual Studio 2013\Projects\Demo 7-20\Posts.API\bin\Debug\Posts.API.pdb
+C:\Users\Rochel Faiga\Documents\Visual Studio 2013\Projects\Demo 7-20\Posts.API\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rochel Faiga\Documents\Visual Studio 2013\Projects\Demo 7-20\Posts.API\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rochel Faiga\Documents\Visual Studio 2013\Projects\Demo 7-20\Posts.API\obj\Debug\Posts.API.csprojResolveAssemblyReference.cache
+C:\Users\Rochel Faiga\Documents\Visual Studio 2013\Projects\Demo 7-20\Posts.API\obj\Debug\Posts.API.dll
+C:\Users\Rochel Faiga\Documents\Visual Studio 2013\Projects\Demo 7-20\Posts.API\obj\Debug\Posts.API.pdb
