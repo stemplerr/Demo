@@ -8,6 +8,6 @@ namespace Demo_7_20.Models
 {
     public class HomeViewModel
     {
-        public IEnumerable<Post> Posts {get; set;}
+        public List<Post> Posts {get; set;}
     }
 }

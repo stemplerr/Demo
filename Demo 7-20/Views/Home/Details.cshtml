@@ -23,18 +23,19 @@
 <div id="map" style="width: 900px; height: 380px; border: 5px solid #3333ff; margin: 40px auto;"> </div>
 
 <script>
-    var map;
-    var MyLatLng = { lat: @Model.Post.Venue.Latitude, lng: @Model.Post.Venue.Longitude};
     function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: MyLatLng,
-            zoom: 17
+        var myLatLng = { lat: @Model.Post.Venue.Latitude, lng: @Model.Post.Venue.Longitude};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 17,
+            center: myLatLng
         });
-    }
-    var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-    });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'foobar'
+        });
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbnDo9mZQiQ4vAUVJRSG5r4r3ONlqsZHY&callback=initMap" async defer></script>
 <script src="~/Scripts/Index.js"></script>

@@ -16,7 +16,7 @@ namespace Demo_7_20.Controllers
         public ActionResult Index()
         {
             HomeViewModel vm = new HomeViewModel();
-            vm.Posts =  PostsRepository.GetPosts();
+            vm.Posts =  PostsRepository.GetPosts().ToList();
             return View(vm);
         }
         public ActionResult Details()

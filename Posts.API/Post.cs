@@ -8,6 +8,8 @@ namespace Posts.API
 {
     public class Post
     {
+        [JsonProperty("id")]
+        public int Id { get; set; }
         [JsonProperty("author")]
         public Author Author { get; set; }
         [JsonProperty("title")]
