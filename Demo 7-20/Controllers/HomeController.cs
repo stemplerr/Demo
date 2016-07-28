@@ -26,5 +26,10 @@ namespace Demo_7_20.Controllers
             return View(vm);
         }
 
+        public ActionResult Ajax()
+        {
+            return View();
+        }
+
     }
 }

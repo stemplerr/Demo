@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Ajax.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="main-div">
+        <div class="page-header">
+            <img src="http://a5.mzstatic.com/us/r30/Purple/v4/dd/b7/38/ddb73833-34c8-b566-938c-995e16112908/icon175x175.jpeg">
+        </div>
         @RenderBody()
+    </div>
     
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
